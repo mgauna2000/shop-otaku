@@ -57,6 +57,7 @@ img {
 }
 .slider__section {
     width: 100%;
+    position: relative;
 }
 .slider__img {
     display: block;
@@ -86,4 +87,30 @@ img {
 }
 .slider__btn--right {
     right: 10px;
+}
+.slider__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    text-align: center;
+}
+.slider__title {
+    font-size: 2.2em;
+    margin: 0;
+}
+.slider__txt {
+    margin: 5px 0;
+}
+.slider__section-btn {
+    display: block;
+    border: 1px solid #FF4E00;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    margin: 20px auto;
 }
