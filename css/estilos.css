@@ -26,5 +26,17 @@ img {
     font-size: 1.5em;
     border: 1px solid #454546;
     display: block;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.main-header__btn {
+    display: block;
+    padding: 10px 30px;
+    color: #454546;
+    border: 1px solid #454546;
+    text-decoration: none;
+}
+.main-header__input {
+    display: block;
     padding: 10px;
 }
