@@ -54,6 +54,17 @@ img {
     width: 400%;
     height: 300px;
     margin-left: -100%;
+    position: relative;
+}
+.slider::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
 }
 .slider__section {
     width: 100%;
@@ -78,6 +89,7 @@ img {
     text-align: center;
     border-radius: 50%;
     cursor: pointer;
+    z-index: 999;
 }
 .slider__btn:hover {
     background: #fff;
@@ -96,6 +108,7 @@ img {
     transform: translate(-50%, -50%);
     width: 60%;
     text-align: center;
+    z-index: 999;
 }
 .slider__title {
     font-size: 2.2em;
