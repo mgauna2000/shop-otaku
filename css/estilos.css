@@ -144,6 +144,17 @@ img {
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
+    position: relative;
+}
+.product::before {
+    content: "Nuevo";
+    background: #FF4E00;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    transform: rotate(-90deg);
+    color: #fff;
 }
 .product__img {
     width: 100%;
