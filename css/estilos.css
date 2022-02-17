@@ -50,6 +50,9 @@ img {
 .main {
     padding: 0 20px;
 }
+.main-title__style {
+    padding: 0 20px;
+}
 /* SLIDER */
 .container-slider {
     margin: 50px 0;
@@ -124,7 +127,7 @@ img {
 .slider__txt {
     margin: 5px 0;
 }
-.slider__section-btn {
+.section-btn {
     display: block;
     border: 1px solid #FF4E00;
     color: #fff;
@@ -224,4 +227,17 @@ img {
 }
 .editor__item:hover::before {
     opacity: 1;
+}
+/* CARD */
+.container-card {
+    margin: 20px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.card .section-btn {
+    color: #454546;
+}
+.card {
+    border: 1px solid #454546;
 }
