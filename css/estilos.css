@@ -235,6 +235,12 @@ img {
     display: flex;
     flex-direction: column;
 }
+.card__title {
+    font-family: 'Poppins', sans-serif;
+}
+.card__img {
+    object-fit: cover;
+}
 .card .section-btn {
     color: #454546;
 }
