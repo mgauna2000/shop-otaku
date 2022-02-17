@@ -247,3 +247,28 @@ img {
 .card {
     border: 1px solid #454546;
 }
+/* FOOTER */
+.main-footer {
+    background-color: #151515;
+    color: #fff;
+    padding: 30px 20px;
+}
+.footer__txt {
+    color: #555;
+}
+.footer__link {
+    color: #555;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+.footer__input {
+    background: #151515;
+    width: 100%;
+    display: block;
+    padding: 20px;
+    border: 1px solid #555;
+}
+.copy {
+    color: #555;
+}
