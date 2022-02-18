@@ -253,6 +253,10 @@ img {
     color: #fff;
     padding: 30px 20px;
 }
+.footer__title {
+    border-bottom: 1px dotted #555;
+    padding-bottom: 20px;
+}
 .footer__txt {
     color: #555;
 }
@@ -272,3 +276,4 @@ img {
 .copy {
     color: #555;
 }
+/* ESTILOS DE TABLET */
