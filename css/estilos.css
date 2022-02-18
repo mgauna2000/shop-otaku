@@ -21,8 +21,39 @@ img {
     margin: 10px 0;
     color: #454546;
 }
+/* ESTILOS DEL MENU */
 .main-nav {
-    display: none;
+
+}
+.menu {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    background: #212121;
+    width: 100%;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    z-index: 9999999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+.menu__item {
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+}
+.menu__link {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    display: block;
+}
+.mostrar {
+    opacity: 1;
+    visibility: visible;
 }
 .main-header__container {
     display: flex;
@@ -36,6 +67,7 @@ img {
     padding: 10px 20px;
     cursor: pointer;
 }
+
 .main-header__btn {
     display: block;
     padding: 10px 30px;
@@ -316,5 +348,5 @@ img {
 }
 /* ESTILOS PARA WEB */
 @media screen and (min-width: 1024px) {
-    
+
 }
