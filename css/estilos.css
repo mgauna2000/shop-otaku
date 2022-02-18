@@ -308,4 +308,13 @@ img {
         object-fit: cover;
         height: 300px;
     }
+    .editor__item:hover .editor__circle {
+        transform: scale(1.2);
+        bottom: -80px;
+        right: 70px;
+    }
+}
+/* ESTILOS PARA WEB */
+@media screen and (min-width: 1024px) {
+    
 }
