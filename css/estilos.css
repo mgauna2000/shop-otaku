@@ -277,3 +277,35 @@ img {
     color: #555;
 }
 /* ESTILOS DE TABLET */
+@media screen and (min-width: 768px) {
+    .slider {
+        height: 400px;
+    }
+    .editor__item {
+        height: 250px;
+    }
+    .container-card {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        overflow: hidden;
+    }
+    .card__img {
+        width: 400px;
+        height: 290px;
+        object-fit: cover;
+    }
+    .card {
+        border: 1px solid #454546;
+        margin: 10px;
+    }
+    .editor__item {
+        padding: 10px 20px;
+    }
+    .product__img {
+        object-fit: cover;
+        height: 300px;
+    }
+}
