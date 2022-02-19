@@ -360,5 +360,42 @@ img {
 }
 /* ESTILOS PARA WEB */
 @media screen and (min-width: 1024px) {
-
+    .icon-menu {
+        display: none;
+    }
+    .main-header .container--flex {
+        display: flex;
+        align-items: center;
+    }
+    .main-header__container {
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .main-header__container:nth-child(2) {
+        order: -1;
+    }
+    .main-header__title {
+        width: 100%;
+        font-size: 4em;
+        margin: 0;
+        border-bottom: 1px solid #ccc;
+    }
+    .main-nav {
+        visibility: visible;
+        opacity: 1;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .menu {
+        position: static;
+        display: flex;
+        background: none;
+    }
+    .menu__link {
+        color: #ccc;
+    }
+    .menu__link:hover {
+        background: #FF4E00;
+        color: #fff;
+    }
 }
