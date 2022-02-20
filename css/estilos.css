@@ -21,6 +21,9 @@ img {
     margin: 10px 0;
     color: #454546;
 }
+.main-header__link {
+    color: #333;
+}
 /* ESTILOS DEL MENU */
 .main-nav {
     opacity: 0;
@@ -216,6 +219,9 @@ img {
     display: block;
     margin-top: 10px;
 }
+.product:hover .product__icon {
+    color: #FF4E00;
+}
 /* EDITOR */
 .container-editor {
     margin-top: 50px;
@@ -360,6 +366,10 @@ img {
 }
 /* ESTILOS PARA WEB */
 @media screen and (min-width: 1024px) {
+    .container {
+        width: 1000px;
+        margin: auto;
+    }
     .icon-menu {
         display: none;
     }
@@ -371,14 +381,33 @@ img {
         flex-wrap: wrap;
         align-content: flex-start;
     }
+    .main-header__txt {
+        width: 100%;
+    }
     .main-header__container:nth-child(2) {
         order: -1;
+        width: 25%;
+    }
+    .main-header__container:nth-child(3) {
+        width: 25%;
+        padding: 0 20px;
     }
     .main-header__title {
         width: 100%;
         font-size: 4em;
         margin: 0;
         border-bottom: 1px solid #ccc;
+    }
+    .main-header__link {
+        margin-bottom: 20px;
+    }
+    .main-header__btn {
+        width: 130px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .main-header__input {
+        width: 85%;
     }
     .main-nav {
         visibility: visible;
