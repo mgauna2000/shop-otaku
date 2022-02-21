@@ -39,7 +39,7 @@ img {
     background: #212121;
     width: 100%;
     list-style: none;
-    padding: 0px;
+    padding: 0;
     margin: 0;
 }
 .menu__item {
@@ -47,7 +47,7 @@ img {
     margin: auto;
 }
 .menu__link {
-    padding: 20px;
+    padding: 15px;
     color: #fff;
     text-decoration: none;
     position: relative;
@@ -56,7 +56,7 @@ img {
 .menu__link:hover {
     background: #fff;
     color: #212121;
-    border: 1px solid #FF4E00;
+    border: 0 solid #FF4E00;
 }
 .mostrar {
     opacity: 1;
@@ -433,7 +433,26 @@ img {
     }
     .menu__link:hover {
         background: #FF4E00;
-        color: #fff;
+        color: #212121;
+        font-weight: 500;
+    }
+    .editor__item {
+        margin-bottom: 40px;
+    }
+    .main-footer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+    }
+    .copy {
+        grid-column-start: span 4;
+        text-align: center;
+    }
+    .phone {
+        color: #FF4E00;
+    }
+    .slider {
+        font-size: 1.2em;
     }
 }
 @media screen and (min-width: 1400px) {
