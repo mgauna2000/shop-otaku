@@ -364,6 +364,9 @@ img {
         bottom: -80px;
         right: 70px;
     }
+    .slider {
+        height: 500px;
+    }
 }
 /* ESTILOS PARA WEB */
 @media screen and (min-width: 1024px) {
@@ -431,10 +434,27 @@ img {
 }
 @media screen and (min-width: 1400px) {
     .container {
-        width: 1000px;
+        width: 1400px;
         margin: auto;
     }
     .main-header__container:nth-child(2) {
         font-size: 1.2em;
+    }
+    .container-products {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px;
+    }
+    .slider {
+        height: 600px;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .container {
+        width: 1600px;
+        margin: auto;
+    }
+    .container-products {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px;
     }
 }
