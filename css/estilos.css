@@ -327,6 +327,10 @@ img {
 .copy {
     color: #555;
 }
+/* ESTILOS PHONE */
+
+@media screen and (min-width: 480px) {
+}
 /* ESTILOS DE TABLET */
 @media screen and (min-width: 768px) {
     .slider {
@@ -435,7 +439,6 @@ img {
 @media screen and (min-width: 1400px) {
     .container {
         width: 1400px;
-        margin: auto;
     }
     .main-header__container:nth-child(2) {
         font-size: 1.2em;
@@ -451,7 +454,6 @@ img {
 @media screen and (min-width: 1600px) {
     .container {
         width: 1600px;
-        margin: auto;
     }
     .container-products {
         grid-template-columns: repeat(4, 1fr);
