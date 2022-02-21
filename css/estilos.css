@@ -368,9 +368,6 @@ img {
         bottom: -80px;
         right: 70px;
     }
-    .slider {
-        height: 500px;
-    }
 }
 /* ESTILOS PARA WEB */
 @media screen and (min-width: 1024px) {
@@ -452,6 +449,7 @@ img {
         color: #FF4E00;
     }
     .slider {
+        height: 500px;
         font-size: 1.2em;
     }
 }
@@ -477,5 +475,9 @@ img {
     .container-products {
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 15px;
+    }
+    .main-header__container:nth-child(3) {
+        width: 15%;
+        margin-left: 200px;
     }
 }
