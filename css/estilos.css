@@ -6,6 +6,7 @@
 body {
     margin: 0;
     font-family: 'Inconsolata', monospace;
+    /* background: rgb(248, 244, 244); */
 }
 img {
     display: block;
@@ -426,5 +427,14 @@ img {
     .menu__link:hover {
         background: #FF4E00;
         color: #fff;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .container {
+        width: 1000px;
+        margin: auto;
+    }
+    .main-header__container:nth-child(2) {
+        font-size: 1.2em;
     }
 }
