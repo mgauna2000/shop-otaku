@@ -329,8 +329,17 @@ img {
 }
 /* ESTILOS PHONE */
 
-@media screen and (min-width: 480px) {
-    
+@media screen and (min-width: 375px) {
+    .main-header__btn {
+        padding: 10px;
+    }
+    .container-products {
+        display: flex;
+        flex-direction: column;
+      }
+    .main-header__input {
+        width: 40%;
+    }
 }
 /* ESTILOS DE TABLET */
 @media screen and (min-width: 768px) {
