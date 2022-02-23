@@ -353,9 +353,9 @@ img {
     padding: 0;
     margin: 0;
     text-align: center;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .card__img {
     width: 400px;
@@ -377,6 +377,11 @@ img {
     transform: scale(1.2);
     bottom: -80px;
     right: 70px;
+  }
+  .container-products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
   }
 }
 /* ESTILOS PARA WEB */
@@ -462,6 +467,32 @@ img {
     height: 500px;
     font-size: 1.2em;
   }
+  .container-products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+  .product__img {
+    height: 400px;
+  }
+  .container-card {
+    display: flex;
+    flex-direction: column;
+   }
+}
+@media screen and (min-width: 1200px) {
+  .container-products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+  .product__img {
+    height: 400px;
+  }
+  .container-card {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media screen and (min-width: 1400px) {
   .container {
@@ -471,6 +502,7 @@ img {
     font-size: 1.2em;
   }
   .container-products {
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 15px;
   }
@@ -480,12 +512,18 @@ img {
   .editor__item {
     height: 400px;
   }
+  .container-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 @media screen and (min-width: 1600px) {
   .container {
     width: 1600px;
   }
   .container-products {
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 15px;
   }
@@ -503,5 +541,10 @@ img {
   }
   .editor__item {
     height: 400px;
+  }
+  .container-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: inherit;
   }
 }
