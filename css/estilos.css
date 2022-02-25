@@ -340,6 +340,9 @@ img {
     .main-header__input {
         width: 40%;
     }
+    .product__img {
+      height: 300px;
+    }
 }
 /* ESTILOS DE TABLET */
 @media screen and (min-width: 768px) {
