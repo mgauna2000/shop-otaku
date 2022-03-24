@@ -33,3 +33,6 @@ function Prev() {
 btnRight.addEventListener('click' , function() {
     Next();
 });
+btnLeft.addEventListener('click', function() {
+    Prev();
+})
